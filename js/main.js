@@ -23,7 +23,7 @@ const categories = [
 ];
 
 // 加载JSON数据
-fetch('data/books.json')
+fetch('/dfyyzWeb/data/books.json')
     .then(response => response.json())
     .then(data => {
         books = data;
