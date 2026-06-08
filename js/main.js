@@ -4,7 +4,7 @@ let selectedCategory = '全部';
 let selectedSubCategory = '全部';
 
 // 作者列表写死
-const authors = ['全部',];
+const authors = ['全部','XXX'];
 
 // 分类列表写死
 const categories = [
