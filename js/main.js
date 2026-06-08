@@ -4,12 +4,12 @@ let selectedCategory = '全部';
 let selectedSubCategory = '全部';
 
 // 作者列表写死
-const authors = ['全部', '川原砾', '丸山黄金', '伏濑', '谏山创', '爱七ひろ'];
+const authors = ['全部',];
 
 // 分类列表写死
 const categories = [
-    { name: '文学', sub: ['小说', '散文'] },
-    { name: '动漫', sub: ['轻小说', '漫画'] },
+    { name: '文学', sub: ['侦探小说','日本轻小说' '中国散文'] },
+    { name: '漫画', sub: ['日本漫画', '网络漫画'] },
     { name: '技术', sub: ['C++', 'Qt', 'Web开发'] }
 ];
 
