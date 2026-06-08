@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人书架</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="author-filter">
+            <span>作者:</span>
+            <div class="author-buttons" id="author-buttons"></div>
+            <input type="text" id="author-search" placeholder="搜索作者">
+        </div>
+        <div class="book-search">
+            <input type="text" id="book-search" placeholder="搜索书名">
+        </div>
+    </header>
+    <div class="container">
+        <aside class="category-sidebar" id="category-sidebar">
+            <!-- 分类由JS生成 -->
+        </aside>
+        <main class="book-shelf" id="book-shelf">
+            <!-- 书架由JS生成 -->
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
