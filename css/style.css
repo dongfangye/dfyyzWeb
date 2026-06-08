@@ -92,7 +92,6 @@ input[type="text"] {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 20px;
-    #background-image: url('https://i.imgur.com/1v7U6u2.png'); /* 木质书架背景可换 */
     background-repeat: repeat-y;
     background-position: bottom;
     background-size: cover;
